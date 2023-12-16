@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* General styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(0, 22%, 81%)); /* Light gray background */
+    color: #cd6b6b; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    color: #227e2d; /* Dodger Blue heading color */
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto; /* Center-align the iframe 
+/* Paragraph styling */
+p {
+    line-height: 1.5;
+}
+
+    background-color: #fff8dc; /* Cornsilk background color for introduction */
+    padding: 20px; /* Add padding to the introduction */
+}
+/* extrastyles.css */
+
+/* General styling for the extra divs */
+
+/* Style for the Women's World Cup Tableau graph */
+.tableauPlaceholder {
+    position: relative;
+}
+
+.tableauViz {
+    display: none;
+}
+
+
+/* Sushi picture container styling */
+.sushi-picture {
+    max-width: 100%;
+    height: auto;
+    border: 8px solid #ffA500; /* Orange border color */
+    border-radius: 20px; /* Add a border radius for rounded corners */
+    overflow: hidden; /* Hide overflow to keep rounded corners consistent */
+}
+
+/* Sushi picture styling */
+.sushi-picture img {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    border-radius: 8px; /* Add a border radius for rounded corners */
+}
+.custom-color {
+    color: #681c1c; 
+
